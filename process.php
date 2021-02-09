@@ -330,6 +330,9 @@ foreach ($entities as $entity) {
     }
 }
 
-$parsed['addresses'][] = ['id' => Uuid::uuid4()->toString(), 'value' => $address, 'type' => 'Work'];
+if ($address) {
+    $parsed['addresses'][] = ['id' => Uuid::uuid4()->toString(), 'value' => $address, 'type' => 'Work'];
+}
+
 
 return $parsed;
