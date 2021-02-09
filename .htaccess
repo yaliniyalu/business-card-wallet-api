@@ -1,0 +1,7 @@
+<Files "token">
+  Require all denied
+</Files>
+
+<Files ".env">
+    Require all denied
+</Files>

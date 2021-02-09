@@ -1,0 +1,9 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "7.0",
+      "ext-json": "*",
+        "ramsey/uuid": "^4.1",
+      "ext-mbstring": "*",
+        "vlucas/phpdotenv": "^5.3"
+    }
+}
